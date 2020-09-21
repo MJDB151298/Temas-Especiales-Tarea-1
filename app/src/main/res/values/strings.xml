@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Temas Especiales Tarea 1</string>
+
+    <string-array name="gender">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+</resources>
