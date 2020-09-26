@@ -29,6 +29,14 @@
             android:layout_marginTop="156dp" android:dropDownWidth="wrap_content" android:visibility="visible"
             app:layout_constraintStart_toEndOf="@+id/generoTextView" android:layout_marginStart="40dp"
             android:layout_marginLeft="40dp"/>
+    <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="36dp"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"/>
     <TextView
             android:text="Le gusta programar?"
             android:layout_width="wrap_content"
@@ -88,19 +96,6 @@
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="28dp"
             android:layout_marginStart="28dp" app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="364dp"/>
-    <DatePicker
-            android:id="@+id/datePicker"
-            android:layout_width="226dp"
-            android:layout_height="80dp"
-            android:layout_centerHorizontal="true"
-            android:datePickerMode="spinner"
-            android:calendarViewShown="false"
-            app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="188dp"
-            android:layout_marginEnd="32dp"
-            android:layout_marginRight="32dp" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="170dp"
-            android:layout_marginStart="170dp" app:layout_constraintHorizontal_bias="0.647"/>
     <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="247dp"
             android:layout_height="140dp"
@@ -158,9 +153,9 @@
             android:layout_width="177dp"
             android:layout_height="45dp" android:id="@+id/send_button"
             app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="580dp"
-            android:onClick="save" app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="12dp"
-            android:layout_marginStart="12dp" app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="106dp" app:layout_constraintVertical_bias="1.0"/>
+            android:onClick="save" app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="7dp"
+            android:layout_marginStart="7dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="106dp"/>
     <Button
             android:text="Limpiar"
             android:layout_width="177dp"
@@ -169,7 +164,6 @@
             app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="580dp"
             android:layout_marginEnd="4dp" android:layout_marginRight="4dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="106dp"
-            app:layout_constraintVertical_bias="1.0"/>
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="106dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
